@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yhx.com.sharedpreferences.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_addString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存字符串"/>
+
+    <Button
+        android:id="@+id/btn_addJavaBean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存对象"/>
+
+    <Button
+        android:id="@+id/btn_addMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存对象集合"/>
+
+    <Button
+        android:id="@+id/btn_getString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取字符串"/>
+
+    <Button
+        android:id="@+id/btn_getJavaBean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取对象"/>
+
+    <Button
+        android:id="@+id/btn_getMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取对象集合"/>
+
+</LinearLayout>
